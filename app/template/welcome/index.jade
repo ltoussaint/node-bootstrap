@@ -1,0 +1,10 @@
+doctype html
+html(lang="en")
+  head
+    title= "Node - Bootstrap : improve Jade"
+  body
+    h1 Node - Bootstrap samples
+    ul
+      each label, href in urls
+        li
+          a(href="#{href}") #{label}

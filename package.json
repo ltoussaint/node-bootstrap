@@ -1,0 +1,19 @@
+{
+    "name": "node-bootstrap",
+    "title": "Node bootstrap",
+    "description": "Simple bootstrap to start with node.js",
+    "version": "0.1.0",
+    "licence": "MIT",
+    "author": "Laurent Toussaint <lt.laurent.toussaint@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ltoussaint/node-bootstrap.git#stable"
+    },
+    "dependencies": {
+        "promise": ">=5.0.0",
+        "mysql": "2.1.1",
+        "bunyan": "0.22.3",
+        "jade": "1.7.0",
+        "node-bootstrap-core": "ltoussaint/node-bootstrap-core"
+    }
+}
